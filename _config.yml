@@ -21,7 +21,7 @@
 title: Soltivo Documentation
 description: >- # this means to ignore newlines until "baseurl:"
   All the documentation for the Soltiwarriors.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/conventions" # the subpath of your site, e.g. /blog
 url: "https://soltivo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: soltivo
 github_username:  soltivo
@@ -39,7 +39,7 @@ color_scheme: dark
 # Aux links for the upper right navigation
 aux_links:
   "Edit the doc on GitHub":
-    - "//github.com/soltivo/soltivo.github.io"
+    - "//github.com/soltivo/conventions"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -48,7 +48,7 @@ aux_links_new_tab: false
 collections:
   # Define a collection named "docs", its documents reside in the "_docs" directory
   docs:
-    permalink: "/:collection/:path/"
+    permalink: ":collection/:path/"
     output: true
 
 just_the_docs:
