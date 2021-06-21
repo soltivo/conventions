@@ -186,7 +186,7 @@ For non-exported symbols, sometimes the name and type of the function or paramet
    * @param amountLitres The amount to brew. Must fit the pot size!
    */
   brew(amountLitres: number, logger: Logger) {
-  // ...
+    // ...
   }
   ```
 
