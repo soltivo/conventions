@@ -176,19 +176,19 @@ Do not use `@override` in TypeScript source code.
 For non-exported symbols, sometimes the name and type of the function or parameter is enough. Code will _usually_ benefit from more documentation than just variable names though!
 
 - Avoid comments that just restate the parameter name and type, e.g.
-  ```ts
-  /** @param fooBarService The Bar service for the Foo application. */
-  ```
+```ts
+/** @param fooBarService The Bar service for the Foo application. */
+```
 - Because of this rule, `@param` and `@return` lines are only required when they add information, and may otherwise be omitted.
-  ```ts
-  /**
-   * POSTs the request to start coffee brewing.
-   * @param amountLitres The amount to brew. Must fit the pot size!
-   */
-  brew(amountLitres: number, logger: Logger) {
-    // ...
-  }
-  ```
+```ts
+/**
+ * POSTs the request to start coffee brewing.
+ * @param amountLitres The amount to brew. Must fit the pot size!
+ */
+brew(amountLitres: number, logger: Logger) {
+  // ...
+}
+```
 
 ### Parameter property comments
 
