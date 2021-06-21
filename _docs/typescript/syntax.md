@@ -180,6 +180,7 @@ For non-exported symbols, sometimes the name and type of the function or paramet
 /** @param fooBarService The Bar service for the Foo application. */
 ```
 - Because of this rule, `@param` and `@return` lines are only required when they add information, and may otherwise be omitted.
+
 ```ts
 /**
  * POSTs the request to start coffee brewing.
