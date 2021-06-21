@@ -117,7 +117,7 @@ Names must be descriptive and clear to a new reader. Do not use abbreviations th
 #### Exceptions:
 
 - Variables that are in scope for 10 lines or fewer, including arguments that are not part of an exported API, may use short (e.g. single letter) variable names. Usefull in a loop for example.
-- Variables that are more than 25 characters/columns can contains abbrevited words (e.g. `organizationsDatabaseResponse` -> `organizationsDbResponse` or `orgDatabaseResponse`)
+- Variables that are more than 25 characters/columns can contains abbreviated words (e.g. `organizationsDatabaseResponse` -> `organizationsDbResponse` or `orgDatabaseResponse`)
 
 ## File encoding: UTF-8
 
