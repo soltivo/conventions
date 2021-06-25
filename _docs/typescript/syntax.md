@@ -7,7 +7,7 @@ nav_order: 1
 
 # Syntax
 
-This Style Guide uses the [terminology convention]('/../../terminology/keywords.md') when using the phrases must, must not, should, should not, and may. All examples given are non-normative and serve only to illustrate the normative language of the style guide.
+This Style Guide uses the [terminology convention](./conventions/docs/terminologies/keywords) when using the phrases must, must not, should, should not, and may. All examples given are non-normative and serve only to illustrate the normative language of the style guide.
 
 ## Identifiers
 
